@@ -1,13 +1,15 @@
-p.one {
+      p.one {
       font-size: 16px;
-      color: slategrey;
+      color: darkorange;
       font-family: verdana;
       padding: 100px 0px 0px 0px;
+      font-weight: 700;
     }
     .text {
       font-size: 16px;
-      color: slategrey;
+      color: darkorange;
       font-family: verdana;
+      font-weight: 700;
     }
     
     .darkmode {
@@ -30,6 +32,14 @@ p.one {
 
     img.nice {
       border-radius: 8px;
+    }
+
+    img.backgroundfixed{
+      width: 100%;
+      height: auto;
+      position: fixed;
+      z-index: -1;
+      transform: translate(-50%, 0%);
     }
 
     .container{
