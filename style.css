@@ -1,15 +1,17 @@
       p.one {
       font-size: 16px;
-      color: darkorange;
+      color: slategrey;
       font-family: verdana;
       padding: 100px 0px 0px 0px;
       font-weight: 700;
+      white-space: pre-line;
     }
     .text {
       font-size: 16px;
-      color: darkorange;
+      color: slategrey;
       font-family: verdana;
       font-weight: 700;
+      white-space: pre-line;
     }
     
     .darkmode {
@@ -64,4 +66,8 @@
 }
     .container:hover .overlay {
   opacity: 1;
+}
+
+span {
+  background-color:#dbd7d2;
 }
