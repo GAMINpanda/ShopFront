@@ -6,6 +6,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="darkmode">
+    <script src="script.js"></script>
     <div class="topbar">
       <a href="index.html"><h1 class="top">DropShippa</h1></a>
     </div>
@@ -14,7 +15,11 @@
       <p class="one">
         Input the service you want:
       </p>
-      <input type="text">
+      <form id="ServiceForm" action="">
+        <input id="ServiceInput" type="text">
+      </form>
+      <button onclick="SubmitFunction()" value="Nothing">Submit</button>
+      <p class="one" id="output_here"></p>
     </div>
   </body>
 </html>
