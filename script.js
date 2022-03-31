@@ -9,4 +9,3 @@ function SubmitFunction() {
   document.getElementById("output_here").innerHTML = text;
 }
 
-
